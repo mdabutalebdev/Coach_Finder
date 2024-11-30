@@ -1,3 +1,5 @@
+ 
+
 import React from 'react'
 import FeturedCard from './shared/feturedCard'
 import { FeturedData } from '@/app/data/Data'
@@ -16,7 +18,7 @@ const FeturedCategories = () => {
   <CiSearch className='h-[22px] w-[22px] absolute top-[14px] left-6 cursor-pointer text-[#BDBDBD]'/>
     </div>
 </div>
-<p className='text-primaryColor text-base font-medium w-[777px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+<p className='text-primaryColor text-base font-medium w-[777px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text</p>
     <div className="flex flex-wrap gap-6 mt-10 justify-center">
     {
       FeturedData.map((data) => (

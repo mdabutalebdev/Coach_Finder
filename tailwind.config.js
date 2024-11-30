@@ -22,6 +22,8 @@ module.exports = {
 				"HighlitColor": "#E0F7FA",
 				"BgColor": "#F5F5F5",
 				"BorderColor": "#AEB3B7",	
+				"MenuHColor": "rgba(0, 128, 128, 0.2)",	
+			 
 
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

@@ -1,5 +1,6 @@
  
-import { FaGoogle, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaGoogle, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+ 
 import Button from "./shared/button";
 
 const Footer = () => {
@@ -7,38 +8,45 @@ const Footer = () => {
     <section className="py-[100px] bg-black mt-[800px]">
       <div className="container">
         <div className="flex  gap-y-5 justify-between">
-
-          <div>
+          {/* part one start */}
+          <div className="">
             <p className="text-base font-openSans font-normal text-white pt-[15px] pb-[32px] max-w-[263px]">
              You’ve got things to do. With seamless integration, you won’thave to wait long for a code review. Your online store can start accepting digital currencies seamlessly and most importantly
             </p>
             {/* social media */}
-            <div className="flex items-center gap-x-3">
-              <div className="size-[40px] hover:text-yellow-400 hover:-translate-y-1 transition-all hover:bg-sky-600 cursor-pointer rounded-full text-secondary flex items-center justify-center text-xl bg-[#dbdbdb]">
+            <div className="flex items-center gap-x-6">
+              <div className="cursor-pointer text-3xl text-white">
                 <span>
-                  <FaGoogle />
+                <FaFacebook />
                 </span>
               </div>
-              <div className="size-[40px] hover:text-white hover:-translate-y-1 transition-all hover:bg-sky-600 cursor-pointer rounded-full text-secondary flex items-center justify-center text-xl bg-[#dbdbdb]">
+              <div className="cursor-pointer text-3xl text-white">
                 <span>
                   <FaTwitter />
                 </span>
               </div>
-              <div className="size-[40px] hover:text-[#ffc001] hover:-translate-y-1 transition-all hover:bg-[#a508f2] cursor-pointer rounded-full text-secondary flex items-center justify-center text-xl bg-[#dbdbdb]">
+              
+              <div className="cursor-pointer text-3xl text-white">
                 <span>
                   <FaInstagram />
                 </span>
               </div>
-              <div className="size-[40px] hover:text-white hover:-translate-y-1 transition-all hover:bg-[#087cb6] cursor-pointer rounded-full text-secondary flex items-center justify-center text-xl bg-[#dbdbdb]">
+              <div className="cursor-pointer text-3xl text-white">
                 <span>
                   <FaLinkedin />
                 </span>
               </div>
+              <div className=" cursor-pointer text-3xl text-white">
+                <span>
+                <FaGoogle />
+                </span>
+              </div>
             </div>
           </div>
-          {/* right */}
-          <div className="flex flex-col lg:flex-row gap-y-10 justify-between gap-x-32">
-            <ul className="flex flex-col gap-y-4">
+           {/* part one end */}
+           {/* part two start */}
+          <div className="">
+          <ul className="flex flex-col gap-y-4">
               <li className="font-openSans font-bold text-white text-[18px]">
               Jump To
               </li>
@@ -58,7 +66,11 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-            <ul className="flex flex-col gap-y-4">
+          </div>
+       {/* part two end */}
+        {/* part three start */}
+          <div className="">
+          <ul className="flex flex-col gap-y-4">
               <li className="font-openSans font-bold text-white text-[18px]">
               Contributor
               </li>
@@ -75,6 +87,10 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
+          </div>
+           
+            {/* part three end */}
+            {/* part 4th start */}
             <div className="">
             <ul className="flex flex-col gap-y-4">
               <li className="font-openSans font-bold text-white text-[18px]">
@@ -92,8 +108,8 @@ const Footer = () => {
                  </Button>
               </div>
             </div>
-             
-          </div>
+             {/* part 4th end */}
+         
         </div>
         <div className="border-t border-white mt-10">
             <p className="text-white text-center pt-5">© 2021 Paynow - Payment Services. All rights reserved.</p>

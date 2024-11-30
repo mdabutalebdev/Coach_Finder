@@ -17,35 +17,35 @@ const Navbar = () => {
                
                />
          </div>
-         <div className="w-[548px] ">
+         <div className="w-[558px] ">
            <div className="relative">
            <Input  placeholder="Search" className="py-6 pl-14"/>
            <CiSearch className='h-[22px] w-[22px] absolute top-[14px] left-6 cursor-pointer text-[#BDBDBD]'/>
            </div>
-          <div className="flex-1 hidden lg:block ml-10 py-5">
+          <div className="flex-1 hidden lg:block  py-5">
             <ul className="flex lg:gap-8 md:gap-6 items-center">
-              <li>
-                <a href="#" className="text-primaryColor text-base font-medium ">
+              <li className=''>
+                <a href="#" className="text-primaryColor text-base font-medium px-3 py-4 hover:text-black rounded-[8px] hover:bg-MenuHColor duration-300 ">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" className="text-primaryColor text-base font-medium ">
+                <a href="#" className="text-primaryColor text-base font-medium px-2 py-4 hover:text-black rounded-[8px] hover:bg-MenuHColor duration-300 ">
                 Peer Groups
                 </a>
               </li>
-              <li>
-                <a href="#" className="text-primaryColor text-base font-medium ">
+              <li>  
+                <a href="#" className="text-primaryColor text-base font-medium px-2 py-4 hover:text-black rounded-[8px] hover:bg-MenuHColor duration-300 ">
                 Reviews
                 </a>
               </li>
               <li>
-                <a href="#" className="text-primaryColor text-base font-medium ">
+                <a href="#" className="text-primaryColor text-base font-medium px-2 py-4 hover:text-black rounded-[8px] hover:bg-MenuHColor duration-300 ">
                 About us
                 </a>
               </li>
               <li>
-                <a href="#" className="text-primaryColor text-base font-medium ">
+                <a href="#" className="text-primaryColor text-base font-medium px-2 py-4 hover:text-black rounded-[8px] hover:bg-MenuHColor duration-300 ">
                 Contact Us
                 </a>
               </li>

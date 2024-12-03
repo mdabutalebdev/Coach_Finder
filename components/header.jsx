@@ -23,7 +23,7 @@ const Header = () => {
                    <Button className='!px-14 text-left'>
                     Find Your Group 
                     </Button>
-                    <GoArrowRight className='absolute top-3 right-5 text-white h-7 w-6'/>
+                    <GoArrowRight className='absolute top-2 right-5 text-white h-7 w-6'/>
                    </div>
                     <Button className='bg-transparent !text-primaryColor'>
                     Browse All

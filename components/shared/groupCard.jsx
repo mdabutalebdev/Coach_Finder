@@ -17,7 +17,7 @@ import Image from "next/image";
 
 const GroupCard = () => {
   return (
-    <Card className="w-full md:w-[588px] py-2">
+    <Card className="w-full md:w-[588px] h-[373px]">
      
       <div className="flex">
       <CardHeader className="">
@@ -54,7 +54,7 @@ const GroupCard = () => {
 <div className="border-t border-[#E2E5F1]  w-[550px] ml-5"></div>
       <CardDescription className="font-bold text-primaryColor text-base ml-7 mt-2">Meeting Format</CardDescription>
 
-     <div className="flex ml-7 py-4 gap-x-5">
+     <div className="flex ml-7 mt-1 gap-x-5">
      <div className="flex">
      <Image
                 src={Person}

@@ -17,7 +17,7 @@ const PeerGroup = () => {
           industry. Lorem Ipsum has been the industry s standard dummy text
         </p>
 
-        <div className="mt-10 flex flex-wrap gap-6">
+        <div className="grid grid-cols-2 gap-x-6 gap-y-2 mt-10">
           <GroupCard />
           <GroupCard />
           <GroupCard />

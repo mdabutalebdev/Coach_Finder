@@ -15,6 +15,7 @@ import Button from "./button";
 import Image from "next/image";
 
 
+
 const GroupCard = () => {
   return (
     <Card className="w-full md:w-[588px] h-[373px]">
